@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin:0 auto; /* margem */
+	width: 768px; /* largura */
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #f5f5f5;
+}
+
+header h1{
+	font-size: 35px;
+	line-height: 40px; /* altura da linha */
+	padding: 20px 0 20px 0;
+	text-align: center; /* alinhamento */
+}
+
+nav ul{ 
+	list-style-type: none;/* tirar as bolinhas do li */
+}
+
+nav ul li {
+	float:left; /* flutuar */
+}
+
+nav ul li a {
+	display: block; /* escreve em bloco */
+	height: 30px; /* altura */
+	padding: 0 30px; /* espaços entre as palavras */
+	line-height: 30px; /* altura da linha */
+	text-align: center; /* centralizado */
+	text-decoration: none; /* tira os sinais de links */
+	color: #000; /* tira as cores dos links */
+	font-weight: bold; /* deixar em negrito */
+
+}
+
+nav ul li a:hover{ /* passar o mouse  */
+	color: #34abe0;
+}
+
+nav ul li a.selecionado{
+	color: green;
+	background-color: #34abe0;
+	padding: 0 58px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 2px;
+}
