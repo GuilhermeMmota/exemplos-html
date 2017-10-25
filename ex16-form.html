@@ -1,0 +1,152 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Cadastro</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtnome">Nome</label>  
+  <div class="col-md-5">
+  <input id="txtnome" name="txtnome" type="text " placeholder="Digite seu nome" class="form-control input-md" required="">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <style>
+    input[type="text"] { background-color: #fff; color: #000}
+    input:invalid{ background-color: yellow; color: red}
+  </style>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtcidade">Cidade</label>  
+  <div class="col-md-4">
+  <input id="txtcidade" name="txtcidade" type="text " placeholder="Digite a cidade" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtEstado">Estado</label>  
+  <div class="col-md-2">
+  <input id="txtEstado" name="txtEstado" type="text " placeholder="Digite o estado" class="form-control input-md" required="" maxlength="2">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtCep">CEP</label>  
+  <div class="col-md-4">
+  <input id="txtCep" name="txtCep" type="number " placeholder="Digite o cep" class="form-control input-md" required="" maxlength="9">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtCpf">CPF</label>  
+  <div class="col-md-4">
+  <input id="txtCpf" name="txtCpf" type="number " placeholder="Digite o cpf" class="form-control input-md" required="" 
+   pattern="\d{3}\.d{3}\.d{3}-\d{2}" title="digite o cpf com todos os digitos">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtDN">Data Nascimento</label>  
+  <div class="col-md-4">
+  <input id="txtDN" name="txtDN" type="date" placeholder="Digite a D/N" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtIdade">Idade</label>  
+  <div class="col-md-2">
+  <input id="txtIdade" name="txtIdade" type="number" placeholder="Digite sua idade" class="form-control input-md" required="" maxlength="2">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtEmail">E-mail</label>  
+  <div class="col-md-4">
+  <input id="txtEmail" name="txtEmail" type="text " placeholder="Digite o e-mail" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtSoftware">Softwares</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="txtSoftware" name="txtSoftware"></textarea>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="slcEC">Estado Civil</label>
+  <div class="col-md-4">
+    <select id="slcEC" name="slcEC" class="form-control">
+      <option value="S">Solteiro</option>
+      <option value="C">Casado</option>
+      <option value="D">Divorciado</option>
+      <option value="V">Viuvo</option>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="chbSexo">Sexo</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="chbSexo-0">
+      <input type="checkbox" name="ckbSexo" id="chbSexo-0" value="M">
+      Masculino
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="chbSexo-1">
+      <input type="checkbox" name="ckbSexo" id="chbSexo-1" value="F">
+      Feminino
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtSenha">Senha</label>
+  <div class="col-md-4">
+    <input id="txtSenha" name="txtSenha" type="password " placeholder="Digite sua senha" class="form-control input-md" required="" maxlength="18">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtCel">Celular</label>  
+  <div class="col-md-4">
+  <input id="txtCel" name="txtCel" type="number " placeholder="(00) 00000-0000" class="form-control input-md" required="" maxlength="14">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="btnEnviar"></label>
+  <div class="col-md-4">
+    <button id="btnEnviar" name="btnEnviar" class="btn btn-primary">Enviar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
